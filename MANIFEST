@@ -12,4 +12,6 @@ MANIFEST			This list of files
 META.yml
 README
 t/constcalc.t
+t/generate.t
+t/liftvar.t
 t/proto.t
