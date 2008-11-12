@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   B::Hooks::OP::Check::EntersubForCV: 0
   ExtUtils::Depends: 0
-  ExtUtils::MakeMaker: 6.46
+  ExtUtils::MakeMaker: 6.48
 distribution_type: module
 generated_by: 'Module::Install version 0.77'
 license: perl
@@ -21,8 +21,8 @@ no_index:
     - inc
     - t
 requires:
-  B::Hooks::OP::Check::EntersubForCV: 0.02
+  B::Hooks::OP::Check::EntersubForCV: 0.03
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001001
+version: 0.001002
