@@ -4,13 +4,14 @@ author:
   - 'Matt S Trout - <mst@shadowcatsystems.co.uk>'
 build_requires:
   B::Hooks::OP::Check::EntersubForCV: 0
+  ExtUtils::MakeMaker: 6.42
   Test::More: 0
 configure_requires:
   B::Hooks::OP::Check::EntersubForCV: 0
   ExtUtils::Depends: 0
-  ExtUtils::MakeMaker: 6.48
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 0.97'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,6 +19,7 @@ meta-spec:
 name: Devel-BeginLift
 no_index:
   directory:
+    - example
     - inc
     - t
 requires:
@@ -25,4 +27,4 @@ requires:
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001002
+version: 0.001003
